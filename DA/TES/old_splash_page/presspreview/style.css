@@ -1,0 +1,74 @@
+html{
+	background: #f0f0f0;
+	color:#333;
+	font-family:"Courier New", monospace;
+}
+
+body{
+	width:1200px;
+	display:block;
+	margin:0 auto;
+}
+
+a, a:visited {color:#333; text-decoration:none;}
+
+#header{
+	margin:0 auto;
+	display:block;
+	background: url("img/d8tshtmlheader.jpg");
+	width:1200px;
+	height:420px;
+	background-repeat:no-repeat;
+}
+
+#text p{
+	float: left;
+	width: 100%;
+	display: block;
+	margin-left: 147px;
+	margin-top:-80px;
+	display:none;
+	}
+	
+#dates{
+	margin: 10px auto 0;
+	width: 987px;
+	clear:both;
+	display:block;
+	margin:0 106px;
+}
+
+#dates a{
+	float: left;
+	margin: 16px 40px 0 0;
+	width: 100px;
+	background: white;
+}
+
+#dates a{}
+#dates a:hover{background:#333 !important;color:#fff;}
+
+#dates #sevenseven{
+	background:#aaa;
+}
+
+#dates #sixtwo{
+	background:#bbb;
+}
+#dates #fivesix{
+	background:#ccc;
+}
+
+#dates #ninetwo{
+	background:#ddd;
+}
+#dates #fivetwo{
+	background:#fff;
+}
+
+#dates a#big{font-size:156px;width:950px;margin:0;padding:0;font-weight:bold;background:#f0f0f0;margin-top:26px;}
+
+#player{
+	width: 900px;
+	margin-left: 126px;
+}
